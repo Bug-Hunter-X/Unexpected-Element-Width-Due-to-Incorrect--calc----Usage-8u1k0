@@ -1,0 +1,13 @@
+/*
+  This CSS demonstrates the correct way to use `calc()` to set the width of an element,
+  taking into account padding and border.  The key is to subtract the padding and border
+  from the 100% calculation to ensure the total width is as expected.
+*/
+
+.container {
+  width: calc(100% - 20px); /* Subtract padding and border */
+  padding: 10px;
+  border: 5px solid black;
+}
+
+/* You can adjust the padding and border values as needed. */
